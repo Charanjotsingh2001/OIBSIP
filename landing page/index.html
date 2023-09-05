@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaming Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&family=Indie+Flower&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+
+    <style>
+
+    body{
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.1)),url(./wallpaperflare.com_wallpaper.jpg);
+        background-size: cover;
+        background-repeat: repeat;
+        height: 100vh;
+    }
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container .logo img{
+    width:80px;
+    mix-blend-mode: color-burn;
+
+}
+
+.navigation a{
+    padding:10px 20px ;
+    color:pink;
+    text-decoration: none;
+    font-size:18px;
+    position:relative;
+
+}
+
+.navigation a:before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:0%;
+    height:100%;
+    border-bottom: 2px solid orange;
+    transition:0.5s linear;
+
+}
+
+.navigation a:hover:before{
+    width:90%;
+
+}
+
+.container2{
+    margin-left: auto;
+    margin-right:auto ;
+    margin-top: 200px;
+    text-align: center;
+ display: block;
+ width: 400px;
+ height: 400px;
+ color:white;
+font-family: 'Lobster', cursive;;
+font-size: 20px;
+}
+
+.container2 .para{
+    color:gainsboro;
+
+}
+
+.container2 .button input{
+    border-radius: 5px;
+    background-color:lightsalmon;
+    transition: 0.4s;
+    padding: 7px;
+    margin-top:10px;
+    border:none;
+}
+
+.container2 .button input:hover{
+    background-color: transparent;
+    color:lightsalmon;
+    border: 2px solid black;
+
+}
+
+.container2 .glowtext{
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #0fa, 0 0 82px #0fa,0 0 92px #0fa;
+    color:rgb(72, 60, 85);
+transition: 0.25s;
+font-size: 25px;
+
+}
+
+.container2 .glowtext:hover{
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px lawngreen, 0 0 82px lightcoral,0 0 92px lightpink ;
+}
+
+.games{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+   text-align: center;
+   margin-top: 100px;
+   gap:3rem;
+ overflow: hidden;
+
+}
+
+.gameimg{
+    width:400px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.gameimg:hover{
+    scale:1.1;
+    border-radius: 10px;
+}
+
+.games .desc{
+
+    font-weight:bold;
+    font-family: 'Playfair Display', serif;
+}
+
+.games button{
+    background-color:lightblue ;
+    border-radius: 5px;
+    border: transparent;
+    padding: 5px;
+    transition: 0.5s;
+
+}
+
+.games button:hover{
+    border: transparent;
+    background-color: transparent;
+}
+
+.contacthead{
+    text-align: center;
+}
+.contact{
+    display: flex;
+    gap:1rem;
+    justify-content: center;
+
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+          <img src="logo1.jpeg" alt="logo">
+        </div>
+        <div class="navigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#bestoffers">Best offer's</a>
+            <a href="#contact">Contact</a>
+
+
+        </div>
+
+
+    </div>
+    <div class="container2">
+<div class="glowtext">
+        <h1>
+    Let the Game Begin
+</h1>
+</div>
+
+<div class="para">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi alias expedita blanditiis maiores numquam delectus dicta quod harum earum velit repellat, itaque praesentium dolore dignissimos sed quam officiis similique nam.
+</div>
+
+<div class="button">
+
+        <input type="button" value="Register Here">
+    </div>
+</div>
+    </div>
+  <section id="bestoffers">
+    <div class="games">
+    <div class="game1">
+        <image class="gameimg" src="./421641.jpg">
+            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, a aliquid harum, amet facilis officiis hic, maxime provident inventore repellat natus ex similique animi repudiandae accusantium voluptatem et! Earum, at?</p>
+            <button>Try it for Free!!!</button>
+        </div>
+     <div class="game2">
+        <img class=" gameimg"src="./call-of-duty-pictures-7lrqnchbx478ucgg.jpg">
+        <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, a aliquid harum, amet facilis officiis hic, maxime provident inventore repellat natus ex similique animi repudiandae accusantium voluptatem et! Earum, at?</p>
+        <button>Try it for Free!!!</button>
+     </div> 
+     <div class="game3">
+        <img class="gameimg" src="./547290.jpg">
+        <p class="desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis laboriosam officia aliquam molestias dolore beatae nam eos deserunt sed rerum voluptate, distinctio non. Magni inventore vel, repudiandae itaque voluptatibus repellendus!</p>
+        <button>Try it for Free!!!</button>
+     </div>  
+     <div class="game4">
+        <img class="gameimg" src="./677562.jpg">
+        <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore maxime doloremque reiciendis vitae provident pariatur vel eaque voluptate rem, exercitationem neque animi quod est repudiandae atque eos non cumque deleniti.</p>
+        <button>Try it for Free!!!</button>
+
+     </div>
+ </div>
+</section>
+<footer>
+<section id="contact">
+    <h1 class="contacthead">Contact Details</h1>
+    <div class="contact">
+
+    <div class="mail">
+        <a href="mailto:aniketwarhate@gmail.com"><img src="./icons8-gmail-48.png"></a>
+    </div>
+    <div class="linkedin">
+        <a href="https://www.linkedin.com/in/aniket-warhate-998478286/"><img src="./icons8-linkedin-48.png"></a>
+    </div>
+
+</div>
+</section>
+</footer>
+</body>
+</html>
