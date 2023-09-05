@@ -1,0 +1,242 @@
+body {
+    background-image: url(circle-scatter-haikei\ \(3\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.container-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: grey;
+    transition: 0.25s;
+
+}
+
+.navbar a:hover {
+
+    color: red;
+
+}
+
+
+
+
+
+.aboutme {
+   
+   
+    height: 420px;
+    width: 100%;
+
+
+}
+
+.aboutme img {
+    height: 400px;
+    object-fit: contain;
+    float: left;
+    margin-right: 20px;
+    border-radius: 20px;
+
+}
+
+.para {
+    display: block;
+    width: 750px;
+    font-size: 27px;
+    margin-top: 50px;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+
+
+
+.experience {
+    display: block;
+    width: 700px;
+    margin-left: 300px;
+
+
+}
+
+.education {
+    margin-right: 50px;
+    margin-top: 100px;
+}
+
+.education h1 {
+    clear: both;
+    margin-top: 20px;
+    font-size: 40px;
+    text-align: right;
+    color: bisque;
+
+}
+
+.education li {
+    text-align: right;
+    list-style-type: none;
+    color: lightblue;
+    font-family: 'Indie Flower', cursive;
+    font-size: 17px;
+
+}
+
+#heading {
+    color: white;
+    margin-left: 20px;
+    font-size: 30px;
+    margin-top: 100px;
+
+}
+
+.projects {
+    display: flex;
+    margin-top: 50px;
+
+    color: lightsalmon;
+    justify-content: space-evenly;
+}
+
+
+
+.project1 img {
+    width: 350px;
+    border-radius: 10px;
+    margin-right: 20px;
+
+}
+
+
+
+.project2 img {
+    width: 350px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.para2 {
+
+    display: block;
+    width: 250px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    margin-left: 30px;
+    color: orange;
+
+}
+
+.projects3 img {
+    width: 350px;
+    height: 170px;
+    object-fit: cover;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+
+
+
+.exp h1 {
+    color: antiquewhite;
+    margin-left: 20px;
+}
+
+.exp p {
+    display: block;
+    width: 600px;
+    text-align: center;
+    color: lightseagreen;
+    font-family: 'Caveat', cursive;
+    font-size: 23px;
+
+
+}
+
+.icons {
+    background-color: grey;
+    width: 120px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+.accounts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media(max-width:600px) {
+    .portfolio {
+        font-size: 20px;
+    }
+
+
+    .navbar a {
+        font-size: 10px;
+    }
+
+    .aboutme img {
+        height: 250px;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 50%;
+        border-radius: 20px;
+        margin-top: 50px;
+        object-fit: cover;
+    }
+
+    .para {
+        display: block;
+        width: 500px;
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 50px;
+        color: white;
+        font-family: 'Dancing Script', cursive;
+        text-align: center;
+    }
+
+    .education {
+        text-align: left;
+        margin-top: 200px;
+        margin-left: 0;
+
+    }
+
+    .education li {
+        text-align: left;
+        list-style-type: none;
+        color: lightblue;
+        font-family: 'Indie Flower', cursive;
+        font-size: 15px;
+    }
+
+
+
+    .projects {
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
